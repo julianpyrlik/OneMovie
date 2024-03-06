@@ -1,0 +1,30 @@
+{% include "header.html" %}
+    <div class="container h-100 mt-5">
+        <div class="row">
+            <div class="col-md-6 text-center align-items-center text-white">
+                <img src="https://i.imgflip.com/ehf7s.jpg?a474600" alt="Movie Poster" class="img-fluid mb-5">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-white">
+                <h1>No matches :(</h1>
+                <a href="{{url_for('home')}}">Try again with different preferences</a>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+const searchButton = document.getElementById("searchButton");
+const searchSpinner = document.getElementById("searchSpinner");
+
+searchButton.addEventListener("click", function() {
+  searchButton.classList.add("d-none"); // Hide search button
+  searchSpinner.classList.remove("d-none"); // Show spinner
+});
+
+// Handle potential form submission success or failure (optional)
+// You can update the spinner visibility based on the response from the server.
+</script>
+
+    {% include "footer.html" %}
+
+

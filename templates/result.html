@@ -1,0 +1,57 @@
+{% include "header.html" %}
+
+
+<div class="container h-100">
+    <div class="row">
+        <div class="col-md-4 align-items-end justify-content-start">
+                <img src="https://image.tmdb.org/t/p/original/{{poster_path}}" alt="Movie Poster" class="img-fluid">
+        </div>
+
+        <div class="col-md-8 align-items-start justify-content-start text-start text-white">
+            <h1>{{movie}}</h1>
+            <h2>Plot:</h2> {{plot}}<br><br>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <h2>Stream it on:</h2>
+                    <a href="{{streaming_link}}" target="_blank"><img src="https://image.tmdb.org/t/p/original/{{streaming_logo}}" alt="Streaming Logo" class="img-fluid"></a>
+
+                    <h2> {{not_found}}</h2>
+                </div>
+                <div class="col-md-4">
+                    <form action="{{ url_for('result') }}" method="post">
+                        <div class="col-12 text-center mt-2">
+                            <br><br> <br>
+                            <input type="submit" class="btn btn-primary btn-xl btn-lg" value="Another one" id="searchButton">
+                                <div id="searchSpinner" class="d-none">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="visually-hidden">Searching...</span>
+                                    </div>
+                                </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+const searchButton = document.getElementById("searchButton");
+const searchSpinner = document.getElementById("searchSpinner");
+
+searchButton.addEventListener("click", function() {
+  searchButton.classList.add("d-none"); // Hide search button
+  searchSpinner.classList.remove("d-none"); // Show spinner
+});
+
+// Handle potential form submission success or failure (optional)
+// You can update the spinner visibility based on the response from the server.
+</script>
+
+    {% include "footer.html" %}
+
+
+
