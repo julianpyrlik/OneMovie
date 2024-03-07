@@ -64,9 +64,6 @@ def home():
     return render_template("index.html", service_list=SERVICE_LIST, genre_list=GENRE_LIST, decades=DECADES,
                            lengths=LENGTH_LIST)
 
-@app.route("/test")
-def test():
-    return render_template("test.html")
 
 @app.route("/result", methods=["POST", "GET"])
 def result():
