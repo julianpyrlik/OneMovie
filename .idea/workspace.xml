@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a857602-0354-48db-88fb-2009743be066" name="Changes" comment="delete flask session">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="6a857602-0354-48db-88fb-2009743be066" name="Changes" comment="adapt readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +23,28 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;assignee&quot;: &quot;julianpyrlik&quot;
+    },
+    {
+      &quot;assignee&quot;: &quot;julianpyrlik&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;julianpyrlik&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d30b96f2-5915-4c5a-ae16-2fa3b58dcf47" />
+        <option name="url" value="https://github.com/julianpyrlik/OneMovie.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main final version.py" root0="FORCE_HIGHLIGHTING" />
@@ -47,27 +64,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.main final version.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main new api.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/OneDrive/Dokumente/Python Files/CS50 Final Project OneMovie V2/templates&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.main (2).executor": "Run",
+    "Python.main final version.executor": "Run",
+    "Python.main new api.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/julia/OneDrive/Dokumente/2. PROGRAMMING/Python Files/MyVirtualEnvironment",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\OneDrive\Dokumente\Python Files\CS50 Final Project OneMovie V2" />
       <recent name="C:\Users\julia\OneDrive\Dokumente\Python Files\CS50 Final Project OneMovie V2\templates" />
       <recent name="C:\Users\julia\OneDrive\Dokumente\Python Files\CS50 Final Project OneMovie\templates" />
       <recent name="C:\Users\julia\OneDrive\Dokumente\Python Files\CS50 Final Project - What shall we watch\templates" />
       <recent name="C:\Users\julia\OneDrive\Dokumente\Python Files\CS50 Final Project - What shall we watch" />
-      <recent name="C:\Users\julia\OneDrive\Dokumente\Python Files\100 Day Course\TEMPLATE Web Dev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\julia\OneDrive\Dokumente\Python Files\CS50 Final Project OneMovie V2" />
@@ -89,7 +107,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12 (MyVirtualEnvironment)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\julia\OneDrive\Dokumente\Python Files\CS50 Final Project OneMovie V2" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -143,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709765939260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adapt readme.md">
+      <option name="closed" value="true" />
+      <created>1709827531724</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709827531724</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="delete flask session" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete flask session" />
+    <MESSAGE value="adapt readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapt readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
